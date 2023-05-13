@@ -1,35 +1,125 @@
-img {
-    max-width: 100%;
-    height: auto;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;700&family=Work+Sans:ital,wght@1,100;1,300;1,400;1,600;1,800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* me permite deslizar cuando hago clic en los links del menu  */
+    scroll-behavior: smooth;
+}
+/* MENU */
+.contenedor-header{
+background: #1e2326;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header header .logo a {
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #1cb698;
+    text-decoration: none;
+}
+
+.contenedor-header header #nav  a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header #nav  a:hover{
+    color: #1cb698;
+}
+.nav-responsive{
+    background-color: #1cb698;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/* SECCION I N I C I O */
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(/Public/fondo_electronica.jpeg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-baner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.inicio .contenido-baner img{
+    margin-top: 40px;
+    border: 10px solid #1cb698;
     display: block;
+    width: 80%;
     margin: auto;
-    padding: 10px;
+    border-radius: 100%;
+}
+.inicio .contenido-baner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-baner{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-baner .redes a{
+color: #fff;
+display: inline-block;
+text-decoration: none;
+border: 1px solid #fff;
+border-radius: 100%;
+width: 42px;
+height: 42px;
+line-height: 42px;
+margin: 40px 5px;
+font-size: 20px;
+transition: .3s;
+}
+.inicio .contenido-baner .redes a:hover{
+    background-color: #1cb698;
 }
 
-h1 {
-    text-align: center;
-}
+/* B I O G R A F I A */
 
-h2 {
-    padding: 10px 0;
+.biografia{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
 }
-
-p {
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-section {
-    max-width: 800px;
+.biografia .contenido-seccion{
+    max-width: 1100px;
     margin: auto;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
 }
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #f2f2f2;
-    font-size: 14px;
-    color: #666;
+.biografia h2{
+font-size: 48px;
+font-family: 'Righteous';
 }
