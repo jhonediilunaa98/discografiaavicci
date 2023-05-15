@@ -1,0 +1,11 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;700&family=Work+Sans:ital,wght@1,100;1,300;1,400;1,600;1,800&display=swap');
+@import url('/Styles/menu.css');
+@import url('/Styles/inicio.css');
+@import url('/Styles/biografia.css');
+@import url('/Styles/canciones.css');
+@import url('/Styles/albums.css');
+@import url('/Styles/conciertos.css');
+@import url('/Styles/contacto.css');
+@import url('/Styles/footer.css');
+@import url('/Styles/responsive.css');

@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* me permite deslizar cuando hago clic en los links del menu  */
+    scroll-behavior: smooth;
+}
+/* MENU */
+.contenedor-header{
+background: #1e2326;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header header .logo a {
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #1cb698;
+    text-decoration: none;
+}
+
+.contenedor-header header #nav  a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header #nav  a:hover{
+    color: #1cb698;
+}
+.nav-responsive{
+    background-color: #1cb698;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
