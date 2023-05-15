@@ -597,3 +597,113 @@ justify-content: space-around;
     display: inline-block;
     margin-right: 20px;
 }
+/* F O O T  E R  */
+footer{
+    background-color: #252a2e;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+        color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1cb698;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+/* SECCION R E S P O N S I V E */
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252a2e;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:700px){
+    .biografia .fila{
+        display: block;
+    }
+    .biografia.fila .col{
+        width: fit-content;
+    }
+
+    .canciones .fila{
+        display: block;
+    }
+    .canciones.fila .col{
+        width: 100%;
+    }
+    .canciones .fila .col .barra-skill{
+        width: 100%;
+    }
+
+    .albums .fila{
+        display: block;
+    }
+    .albums .fila .col {
+        width: 90%;
+    }
+    .albums .fila .derecha{
+        margin-left: 20px;
+    }
+
+    .concierto .galeria{
+        display: block;
+        width: 100%;
+    }
+    .concierto .galeria .imagenes{
+        max-width: 100%;
+    }
+    .concierto .galeria .imagenes img{
+        width: 100%;
+    }
+
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col {
+        width: 100%;
+    }
+}
