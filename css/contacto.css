@@ -1,5 +1,5 @@
 .contacto{
-    background-image: url(/Public/mapa_02.jpeg);
+    background-image: url('../assets/mapa_02.jpeg');
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
