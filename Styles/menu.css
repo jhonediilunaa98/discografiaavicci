@@ -18,7 +18,7 @@ top: 0;
 left: 0;
 z-index: 99;
 }
-.contenedor-header header{
+.contenedor-header section{
     max-width: 1100;
     margin: auto;
     display: flex;
@@ -26,14 +26,14 @@ z-index: 99;
     align-items: center;
     padding: 15px 20px;
 }
-.contenedor-header header #logo a{
+.contenedor-header section #logo  a{
     font-family: 'Righteous';
     font-size: 36px;
     color: #1cb698;
     text-decoration: none;
 }
 
-.contenedor-header header .nav  a{
+.contenedor-header section .nav  a{
     text-align: none;
     color: #fff;
     margin: 0 15px;
@@ -41,7 +41,7 @@ z-index: 99;
     transition: .5s;
     text-decoration: none;
 }
-.contenedor-header header .nav  a:hover{
+.contenedor-header section .nav  a:hover{
     color: #1cb698;
 }
 #nav-responsive{
