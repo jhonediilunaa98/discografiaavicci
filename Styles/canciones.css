@@ -71,7 +71,7 @@ padding: 20px 0;
 }
 @keyframes nights{
     0%{width: 0%;}
-    100%{width: 40%;}
+    100%{width: 100%;}
 }
 .canciones .canciones .wainting {
     width: 0%;
@@ -111,7 +111,7 @@ padding: 20px 0;
 }
 @keyframes sos{
     0%{width: 0%;}
-    100%{width: 600%;}
+    100%{width: 90%;}
 }
 .canciones .canciones .one {
     width: 0%;
@@ -135,5 +135,5 @@ padding: 20px 0;
 }
 @keyframes lonely{
     0%{width: 0%;}
-    100%{width: 20%;}
+    100%{width: 40%;}
 }
